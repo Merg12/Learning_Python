@@ -22,6 +22,7 @@ John = {
 people = [Greg, Morgan, John]
 
 for person in people:
+    #print(person) #debug log
     for key, value in person.items():
-        full_name = key['first_name' + " " + 'last_name']
-        print(full_name)
+        print(key + ": " + value)
+    print("\n")
