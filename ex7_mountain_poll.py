@@ -8,4 +8,9 @@ while polling_active:
 
     responses[name] = response #store response in dictionary responses
 
-    print(responses)
+    repeat = input("Anyone else? y/n")
+    if repeat == 'n':
+        polling_active = False
+
+for name,response in responses.items():
+    print(name + " would like to climb " + response)
