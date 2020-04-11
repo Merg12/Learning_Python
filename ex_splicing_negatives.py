@@ -9,3 +9,9 @@ print(my_list[-1:-5])
 
 print("[-5: ] is: ")
 print(my_list[-5:])
+
+print("[-5:-1] is: ")
+print(my_list[-5:-1])
+
+print("[-1:-6:-1] is: ")
+print(my_list[-1:-6:-1])
