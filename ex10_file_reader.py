@@ -1,3 +1,3 @@
-with open('/home/heroinamagazine/') as file_object:
+with open('ex10_pi_digits.txt') as file_object:
     contents = file_object.read()
     print(contents)
