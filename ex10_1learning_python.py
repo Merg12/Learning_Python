@@ -1,11 +1,18 @@
 file_name = 'ex10_1learning_python_text.txt'
 
 with open(file_name) as file_object:
-    lines = file_object.readlines()
-    print(lines)
+    lines = file_object.read()
+    print("\nThe entire file is:\n" + lines)
+    print("")
 
-one_line = ''
-for line in lines:
-    one_line += line
+with open(file_name) as file_object:
+    lines2 = file_object.readlines()
+print("Using the stored list:")
+for line in lines2:
+    print(line.strip())
+print("")
 
-print(one_line)
+with open(file_name) as file_object:
+    print("Using for loop:")
+    for line in file_object:
+        print(line.strip())

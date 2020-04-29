@@ -1,5 +1,6 @@
 What I've learned so far in Python is a bunch of hooey!
 Balony
 Iddy
-Bitty Tinny Weenie
+Bitty Tinny Weenie Python
 Nothing!!!!
+Python is easy!
